@@ -1,0 +1,12 @@
+[project]
+name = "fixed-rate-stacks-bonds"
+description = "A fixed-rate bond protocol on Stacks."
+authors = ["arawrdn"]
+telemetry = true
+requirements = []
+
+[contracts.fixed-rate-bond]
+path = "contracts/fixed-rate-bond.clar"
+depends_on = []
+[repl]
+# Settings for the Clarinet console (REPL)
